@@ -5,6 +5,10 @@
  */
 package cuentas;
 
+/**
+ *
+ * @author FColls
+ */
 
 public class Main {
 
@@ -28,6 +32,12 @@ public class Main {
             System.out.print("Fallo al ingresar");
         }
     }
+    
+    /**
+     * 
+     * @param cantidad Cantidad de dinero inicial
+     * @return devuelve el objeto cuenta1 con los datos de la cuenta.
+     */
 
     private static CCuenta operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
